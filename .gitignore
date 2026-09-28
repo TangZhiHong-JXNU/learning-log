@@ -1,0 +1,11 @@
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+.vscode/
+.idea/
+Debug/
+Release/
+*.log
