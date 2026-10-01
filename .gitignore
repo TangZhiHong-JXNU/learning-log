@@ -9,3 +9,5 @@
 Debug/
 Release/
 *.log
+# Code Runner 的临时文件，不该进仓库
+tempCodeRunnerFile.*
