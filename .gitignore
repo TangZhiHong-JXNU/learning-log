@@ -11,3 +11,13 @@ Release/
 *.log
 # Code Runner 的临时文件，不该进仓库
 tempCodeRunnerFile.*
+
+# gcc 不加 -o 时，产物是「同名但无扩展名」的文件（score.c → score）
+# 上面的 *.exe 拦不住它们。下面忽略 c-lang 下所有不带扩展名的文件，
+# 再用 ! 把带扩展名的（.c/.md/.h）和目录救回来
+c-lang/**/*
+!c-lang/**/*.*
+!c-lang/**/*/
+
+# 特例：guess.2.c 编译出的产物叫 guess.2，带点但没扩展名，单独点名
+c-lang/week01/guess.2
