@@ -7,7 +7,7 @@ scanf("%d",&n);
 int isprime=1;
 for (;i<n;i++){
     if(n%i==0){
-    printf("不是素数\n");
+    
     isprime = 0 ;
     break;}
 }
