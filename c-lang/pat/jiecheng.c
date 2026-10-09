@@ -5,7 +5,7 @@ int main()
 int fact=1;
 int i=1;
  for (i;i<=n;i++){fact*=i;
- printf("%d!=%d\n",n,fact);
+ printf("%d/%d\n",n,fact);
 
 
 
